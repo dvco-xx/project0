@@ -1,2 +1,3 @@
-# project0
-edX CS50 web programming with Python and Javascript 
+# Project 0
+
+Web Programming with Python and JavaScript
