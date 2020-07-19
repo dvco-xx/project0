@@ -14,30 +14,24 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/styles.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900"
-      rel="stylesheet"
-    />
-    <title>Contact Page | THE BACKYARDSWAMP</title>
+
+    <title>Contact Page | INTO THE POLYVERSE</title>
     <style>
-      .modal {
-        position: fixed;
-        z-index: 1;
-        left: 0;
-        top: 0;
-        height: 100%;
-        width: 100%;
-        overflow: auto;
-        background-color: rgba(0, 0, 0, 0.9);
+      h2,
+      p {
+        color: gold;
       }
     </style>
   </head>
 
   <body>
     <div class="container">
+      <p>This page is under construction</p>
       <header>
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
-          <a class="navbar-brand text-warning" href=""index.html">THE BACKYARDSWAMP</a>
+          <a class="navbar-brand text-warning" href="index.html"
+            >INTO THE POLYVERSE</a
+          >
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
@@ -46,12 +40,9 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="about.html">ABOUT</a>
-              </li>              
-              <li class="nav-item">
-                <a class="nav-link" href="gallery.html">GALLERY</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-warning" href="contact.html">CONTACTS</a>
+                <a class="nav-link" href="gallery.html">GALLERY</a>
               </li>
             </ul>
             <form class="form-inline mt-2 mt-md-0">
@@ -61,57 +52,9 @@
                 placeholder="Search"
                 aria-label="Search"
               />
-              <button
-                type="button"
-                class="btn btn-outline-primary"
-                data-toggle="modal"
-                data-target="#exampleModal"
-              >
+              <button type="button" class="btn btn-primary my-2 my-sm-0">
                 Search
               </button>
-
-              <!-- Modal -->
-              <div
-                class="modal fade"
-                id="exampleModal"
-                tabindex="-1"
-                role="dialog"
-                aria-labelledby="exampleModalLabel"
-                aria-hidden="true"
-              >
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">
-                        Sorry :(
-                      </h5>
-                      <button
-                        type="button"
-                        class="close"
-                        data-dismiss="modal"
-                        aria-label="Close"
-                      >
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    <div class="modal-body">
-                      Search button doesn't return any results for now.
-                    </div>
-                    <div class="modal-footer">
-                      <button
-                        type="button"
-                        class="btn btn-secondary"
-                        data-dismiss="modal"
-                      >
-                        Close
-                      </button>
-                      <button type="button" class="btn btn-primary">
-                        Save changes
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </form>
           </div>
         </nav>
@@ -127,7 +70,7 @@
               type="text"
               class="form-control"
               id="validationCustom01"
-              placeholder="E.g Mark"
+              placeholder="First Name"
               required
             />
             <div class="valid-feedback">
@@ -156,6 +99,7 @@
               class="form-control"
               id="validationCustom03"
               required
+              placeholder="Email"
             />
             <div class="invalid-feedback">
               Please provide a valid city.
@@ -178,12 +122,14 @@
               class="form-control"
               id="validationCustom05"
               required
+              placeholder="ZIP code"
             />
             <div class="invalid-feedback">
               Please provide a valid zip.
             </div>
           </div>
         </div>
+
         <div class="form-group">
           <div class="form-check">
             <input
@@ -203,44 +149,13 @@
         </div>
         <button class="btn btn-primary" type="submit">Submit form</button>
       </form>
-
-      <script>
-        // Example starter JavaScript for disabling form submissions if there are invalid fields
-        (function () {
-          "use strict";
-          window.addEventListener(
-            "load",
-            function () {
-              // Fetch all the forms we want to apply custom Bootstrap validation styles to
-              var forms = document.getElementsByClassName("needs-validation");
-              // Loop over them and prevent submission
-              var validation = Array.prototype.filter.call(forms, function (
-                form
-              ) {
-                form.addEventListener(
-                  "submit",
-                  function (event) {
-                    if (form.checkValidity() === false) {
-                      event.preventDefault();
-                      event.stopPropagation();
-                    }
-                    form.classList.add("was-validated");
-                  },
-                  false
-                );
-              });
-            },
-            false
-          );
-        })();
-      </script>
-
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
       <hr class="featurette-divider" />
     </div>
     <footer class="container">
       <p class="float-right"><a href="#">Back to top</a></p>
       <p>
-        &copy; 2019-2020 &middot; <strong>Cybero</strong> &middot;
+        &copy; 2019-2020 &middot; <strong>INTO THE POLYVERSE</strong> &middot;
 
         <a href="#">Privacy</a> &middot; <a href="#">Terms</a>
       </p>
@@ -263,5 +178,35 @@
       integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
       crossorigin="anonymous"
     ></script>
+    <script>
+      // Example starter JavaScript for disabling form submissions if there are invalid fields
+      (function () {
+        "use strict";
+        window.addEventListener(
+          "load",
+          function () {
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.getElementsByClassName("needs-validation");
+            // Loop over them and prevent submission
+            var validation = Array.prototype.filter.call(forms, function (
+              form
+            ) {
+              form.addEventListener(
+                "submit",
+                function (event) {
+                  if (form.checkValidity() === false) {
+                    event.preventDefault();
+                    event.stopPropagation();
+                  }
+                  form.classList.add("was-validated");
+                },
+                false
+              );
+            });
+          },
+          false
+        );
+      })();
+    </script>
   </body>
 </html>

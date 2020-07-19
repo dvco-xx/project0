@@ -14,17 +14,48 @@
       crossorigin="anonymous"
     />
     <link href="css/styles.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <!--   <link
       href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900"
       rel="stylesheet"
     /> -->
-    <title>About Page | THEBACKYARDSWAMP</title>
+    <title>THE PURPLE PORTRAIT</title>
     <style>
-      h1 {
+      .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        width: 30%;
+        margin: auto;
         text-align: center;
+        font-family: arial;
+        font-size: 25px;
       }
-      p {
+
+      .title {
+        color: grey;
+        font-size: 18px;
+      }
+
+      button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: rgb(10, 142, 250);
         text-align: center;
+        cursor: pointer;
+
+        font-size: 18px;
+      }
+
+      button:hover,
+      a:hover {
+        color: black;
+      }
+      h2 {
+        color: gold;
       }
     </style>
   </head>
@@ -34,22 +65,19 @@
       <header>
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
           <a class="navbar-brand text-warning" href="index.html"
-            >THE BACKYRD SWAMP</a
+            >THE PURPLE PORTRAIT</a
           >
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link" href="index.html">HOME</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-warning" href="about.html">About</a>
+                <a class="nav-link text-warning" href="about.html">ABOUT</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="gallery.html">Gallery</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
+                <a class="nav-link" href="gallery.html">GALLERY</a>
               </li>
             </ul>
             <form class="form-inline mt-2 mt-md-0">
@@ -69,38 +97,46 @@
 
       <br /><br /><br />
 
-      <div class="container">
-        <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark">
-          <svg width="500" height="250">
-            <defs>
-              <clipPath id="circleView">
-                <circle cx="250" cy="125" r="125" fill="#FFFFFF" />
-              </clipPath>
-            </defs>
-            <image
-              width="500"
-              height="250"
-              src="assets/20191125_181629.jpg"
-              clip-path="url(#circleView)"
-            />
-          </svg>
-          <p>
-            Hello! My name is David Osuchukwu and I'm a 24 year old student of
-            Information Technology. I like to draw and am currently trying to
-            get better at writing better code. I have not wasted time thinking
-            up any exceedingly complex or witty names for this blog for a lack
-            of time and creativity. I hope to continue editing it as time goes
-            on. Visit the Gallery tab above to view some of my rubbish art in
-            the meantime :D Thank you!
-          </p>
+      <div class="card">
+        <img
+          src="assets/anonymous-250.jpg"
+          alt="David the Anonymous"
+          style="width: 100%;"
+        /><br />
+        <h4>David Osuchukwu</h4>
+
+        <p class="title">
+          Illustrator, Writer, Web Developer.
+        </p>
+        <div style="margin: 24px 0;">
+          <a href="https://twitter.com/brxkenhandle"
+            ><i class="fa fa-twitter"></i
+          ></a>
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+          <a href="https://www.facebook.com/dayveed.carter/"
+            ><i class="fa fa-facebook"></i
+          ></a>
+          <a href="https://app.slack.com/client/T7A46UQ9G/learning-slack"
+            ><i class="fa fa-slack"></i
+          ></a>
         </div>
+        <p>
+          <button class="btn btn-warning my-2 my-sm-0" type="submit">
+            <a href="contact.html">Contact</a> &middot;
+          </button>
+        </p>
       </div>
 
       <br /><br /><br /><br />
+
       <hr class="featurette-divider" />
+
       <footer class="container">
+        <p class="float-right"><a href="#">Back to top</a></p>
         <p>
-          &copy; 2019-2020 &middot; POLYVERSAL &middot;
+          &copy; 2019-2020 &middot;
+          <strong>THE PURPLE PORTRAIT</strong> &middot;
+
           <a href="#">Privacy</a> &middot; <a href="#">Terms</a>
         </p>
       </footer>

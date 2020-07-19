@@ -8,22 +8,7 @@ body {
 .button {
   background: #f7d18b;
   padding: 1em 2em;
-  color: #fff;
+  color: #10df77;
   border: 0;
-}
-
-.button:hover {
-  background: #333;
-}
-
-.modal {
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  overflow: auto;
-  background-color: rgba(0, 0, 0, 0.9);
 }
 /*# sourceMappingURL=styles.css.map */
