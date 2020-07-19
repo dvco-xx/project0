@@ -16,20 +16,12 @@ ul > li {
   color: crimson;
 }
 
-.title {
-  color: #fff;
-}
-
 .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-}
-
-.button:hover {
-  background: #333;
 }
 
 .modal {
@@ -52,7 +44,7 @@ ul > li {
 }
 
 footer {
-  color: goldenrod;
+  color: rgb(238, 176, 18);
 }
 
 /*# sourceMappingURL=styles.css.map */
