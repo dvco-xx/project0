@@ -1,6 +1,6 @@
 # Project 0
 
-Web Programming with Python and JavaScript
+CS50W Web Programming with Python and JavaScript
 
 The folders and files contained in this project were created by David Osuchukwu for the Project0 assignment of the edx HarvardX CS50W Web Programming with JavaScript and Python Course.
 

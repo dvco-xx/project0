@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #1f1f20;
+  background-color: #0a0a0a;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 17px;
   line-height: 1.6;
@@ -13,6 +13,10 @@ body {
 
 ul > li {
   color: crimson;
+}
+
+label {
+  color: #eeb012;
 }
 
 .bd-placeholder-img {
@@ -45,8 +49,5 @@ ul > li {
 
 footer {
   color: #eeb012;
-}
-label {
-  color: white;
 }
 /*# sourceMappingURL=styles.css.map */

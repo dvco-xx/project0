@@ -1,4 +1,5 @@
-$bg-color: rgb(31, 31, 32);
+$bg-color: rgb(10, 10, 10);
+$color: rgb(238, 176, 18);
 $padding: 1em 2em;
 
 @media (min-width: 768px) {
@@ -18,6 +19,9 @@ ul > li {
   color: crimson;
 }
 
+label {
+  color: $color;
+}
 .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;
@@ -46,10 +50,7 @@ ul > li {
 }
 
 footer {
-  color: rgb(238, 176, 18);
+  color: $color;
 }
 
 /*# sourceMappingURL=styles.css.map */
-label {
-  color: white;
-}

@@ -16,12 +16,6 @@
     <link rel="stylesheet" href="scss/styles.css" />
 
     <title>Contact Page | THE GOLDEN GROUSE</title>
-    <style>
-      h2,
-      p {
-        color: gold;
-      }
-    </style>
   </head>
 
   <body>
@@ -92,6 +86,17 @@
               id="inputAddress"
               placeholder="e.g 1234 Main St"
             />
+          </div>
+
+          <div class="form-group col-md-6">
+            <label for="validationTextarea">Message</label>
+            <textarea
+              class="form-control"
+              id="validationTextarea"
+              rows="6"
+              placeholder="Enter your message here."
+              required
+            ></textarea>
           </div>
 
           <div class="form-group col-md-6">
@@ -358,27 +363,16 @@
             <div class="form-check">
               <input class="form-check-input" type="checkbox" id="gridCheck" />
               <label class="form-check-label" for="gridCheck">
-                Check this box that does absolutely nothing.
+                Check this box that does absolutely nothing now.
               </label>
             </div>
             <br />
             <button type="submit" class="btn btn-primary">Send Message</button>
           </div>
-
-          <div class="form-group col-md-6">
-            <label for="validationTextarea">Message</label>
-            <textarea
-              class="form-control"
-              id="validationTextarea"
-              rows="6"
-              placeholder="Enter your message here."
-              required
-            ></textarea>
-          </div>
         </div>
       </form>
 
-      <br /><br /><br /><br /><br />
+      <br /><br /><br /><br /><br /><br />
 
       <hr class="featurette-divider" />
     </div>
