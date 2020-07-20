@@ -15,6 +15,11 @@ ul > li {
   color: crimson;
 }
 
+li:hover {
+  color: #f60606;
+  font-size: 20px;
+}
+
 label {
   color: #eeb012;
 }

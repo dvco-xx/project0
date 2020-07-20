@@ -19,6 +19,11 @@ ul > li {
   color: crimson;
 }
 
+li:hover {
+  color: adjust-hue($color: #f60606, $degrees: 0);
+  font-size: 20px;
+}
+
 label {
   color: $color;
 }

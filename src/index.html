@@ -13,6 +13,7 @@
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
+    <!-- Local CSS-->
     <link
      href="scss/styles.css"
      rel="stylesheet"
@@ -20,7 +21,7 @@
    <title>THE GOLDEN GROUSE</title>
    <style>
      h2, p {
-       color:  rgb(238, 176, 18);;
+       color:  rgb(243, 186, 43);;
      }
    </style>    
 </head>
@@ -29,7 +30,7 @@
     <div class="container">
       <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
-          <a class="navbar-brand text-warning" href="index.html">THE GOLDEN GROUSE</a>
+          <a class="navbar-brand text-warning" href="index.html"> <img src="assets/LogoMakr_16pwsn.png" height="60" width="270"></a>
           
           <div class="collapse navbar-collapse " id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
@@ -46,9 +47,10 @@
                 <a class="nav-link" href="contact.html">CONTACT</a>
               </li>
             </ul>
-          <form class="form-inline mt-2 mt-md-0">
-            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-            <button class="btn btn-primary my-2 my-sm-0" type="submit">Search</button>
+
+          <form class="form-inline mt-2 mt-md-0" action="https://google.com/search">
+            <input class="form-control mr-sm-2" type="text" name="q" placeholder="Search" aria-label="Search">
+            <button class="btn btn-primary my-2 my-sm-0" type="submit" value="Google Search">Search</button>
           </form>
         </div>
       </nav>
