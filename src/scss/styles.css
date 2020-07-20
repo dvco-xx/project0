@@ -1,14 +1,52 @@
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
 body {
-  background: #eeb012;
+  background-color: #1f1f20;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 17px;
   line-height: 1.6;
 }
 
-.button {
-  background: #eeb012;
-  padding: 1em 2em;
-  color: #10df77;
-  border: 0;
+ul > li {
+  color: crimson;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.modal {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.modal-content {
+  background-color: gray;
+  margin: 20% auto;
+  padding: 20px;
+  width: 70%;
+  -webkit-box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  color: #eeb012;
+}
+label {
+  color: white;
 }
 /*# sourceMappingURL=styles.css.map */

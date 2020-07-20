@@ -14,7 +14,7 @@
       crossorigin="anonymous"
     />
     <link
-     href="css/styles.css"
+     href="scss/styles.css"
      rel="stylesheet"
    />
    <title>THE GOLDEN GROUSE</title>
@@ -41,6 +41,9 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="gallery.html">GALLERY</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">CONTACT</a>
               </li>
             </ul>
           <form class="form-inline mt-2 mt-md-0">
@@ -71,7 +74,7 @@
           <a href="#" class="stretched-link">Continue reading...</a>
         </div>
         <div class="col-auto d-none d-lg-block">
-          <img src="assets/python.png" height="100%" width="100%">
+          <img src="assets/python.png" height="200" width="auto" alt="python logo image file">
         </div>
       </div>
     </div>
@@ -82,11 +85,11 @@
           <strong class="d-inline-block mb-2 text-muted">Art</strong>
           <h3 class="mb-0 text-warning">Create a Minimalist Movie Poster Following These 5 Simple Steps.<hr></h3>
           <div class="mb-1 text-muted">June 19, 2020</div>
-          <p class="mb-auto text-white">I'm a 100% certain that you haven't woken up today thinking about how to design minimalist movie posters but you are about to become a professional minimalist...</p>
+          <p class="mb-auto text-white">I'm a 100% certain that you haven't woken up today thinking about how to design minimalist movie posters but you are about to become a professional...</p>
           <a href="#" class="stretched-link">Continue reading</a>
         </div>
         <div class="col-auto d-none d-lg-block">
-          <img src="assets/the godfather.jfif" height="100%" width="100%">
+          <img src="assets/the godfather.jfif" alt="the godfather .jfif file" height="230" width="auto">
         </div>
       </div>
     </div>
@@ -101,14 +104,18 @@
         <hr>
         <p class="blog-post-meta ">June 16, 2020 by <a href="#">David</a></p>
 
-        <div class="alert alert-danger" role="alert">
-          I've designed this site according to the instructions outlined by <strong>Brian Yu</strong> for the edX Harvardx CS50W <a href="https://courses.edx.org/courses/course-v1:HarvardX+CS50W+Web/course/" class="alert-link">Web Programming with JavaScript and Python course. </a> While some links and buttons may not be functional at the moment (for which I deeply apologize, simply ran out of time), listed below are some of the features I've used so far in designing the site:
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+          <strong>Holy guacamole!</strong> You should check out some of this (mostly static) site's features below. <hr> I've designed this site according to the instructions outlined by <strong>Brian Yu</strong> for the edX HarvardX CS50W <a href="https://courses.edx.org/courses/course-v1:HarvardX+CS50W+Web/course/" class="alert-link">Web Programming with JavaScript and Python course. </a>While some links and buttons - Search and Like - may not be functional at the moment (for which I apologize and promise to fix in the future), listed below are some of the features I've used so far in designing the website:
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
         </div>
+
         <ul>
-          <li>An index page which makes use of some of Bootstrap 4.5.0's (blog) features.</li>
-          <li>Three other pages (About, Contact and Gallery) accessible from the navigation bar and accessible from each other.</li>
+          <li>An index page which makes use of some of Bootstrap 4.5.0's (blog template) features.</li>
+          <li>Three other pages (About, Contact and Gallery) pages all accessible from the static navigation bar and accessible from each other.</li>
           <li>An .scss file that maps to a corresponding .css file containing various selectors for styling specific sections (like this one for example).</li>
-          <li>@media queries for adding cross-platform responsiveness.</li>
+          <li>@media queries for adding cross-device responsiveness.</li>
           <li>HTML5 elements e.g links, buttons, forms, ordered and unordered lists, etc.</li>
         </ul>
       </div><!-- /.blog-post -->

@@ -13,7 +13,7 @@
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
-    <link href="css/styles.css" rel="stylesheet" />
+    <link href="scss/styles.css" rel="stylesheet" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -30,18 +30,18 @@
         margin: auto;
         text-align: center;
         font-family: arial;
-        font-size: 25px;
+        font-size: 22px;
       }
 
-      .title {
-        color: grey;
+      .text {
+        color: rgb(49, 49, 49);
         font-size: 18px;
       }
 
       button {
         border: none;
         outline: 0;
-        display: inline-block;
+        display: grid;
         padding: 8px;
         color: rgb(10, 142, 250);
         text-align: center;
@@ -53,9 +53,6 @@
       button:hover,
       a:hover {
         color: black;
-      }
-      h2 {
-        color: gold;
       }
     </style>
   </head>
@@ -79,6 +76,9 @@
               <li class="nav-item">
                 <a class="nav-link" href="gallery.html">GALLERY</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">CONTACT</a>
+              </li>
             </ul>
             <form class="form-inline mt-2 mt-md-0">
               <input
@@ -95,18 +95,19 @@
         </nav>
       </header>
 
-      <br /><br /><br />
+      <br /><br />
 
       <div class="card">
         <img
-          src="assets/anonymous-250.jpg"
+          src="assets/C5aTTH4WcAAghdu.jpg"
           alt="David the Anonymous"
-          style="width: 100%;"
+          style="width: 350;"
+          height=" 350"
         /><br />
         <h4>David Osuchukwu</h4>
 
-        <p class="title">
-          is a Nigerian freelance artist, designer and web developer.
+        <p class="text">
+          is a freelance artist, designer and web developer living in Nigeria.
         </p>
         <div style="margin: 24px 0;">
           <a href="https://twitter.com/brxkenhandle" target="_blank"
