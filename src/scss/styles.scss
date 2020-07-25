@@ -1,4 +1,4 @@
-$bg-color: rgb(10, 10, 10);
+$bg-color: rgb(2, 2, 2);
 $color: rgb(238, 176, 18);
 $padding: 1em 2em;
 
@@ -15,18 +15,24 @@ body {
   line-height: 1.6;
 }
 
+h4 {
+  color: white;
+}
+
 ul > li {
   color: crimson;
 }
 
-li:hover {
+label,
+footer,
+.fa {
+  color: $color;
+}
+.bulge:hover {
   color: adjust-hue($color: #f60606, $degrees: 0);
   font-size: 20px;
 }
 
-label {
-  color: $color;
-}
 .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;
@@ -35,27 +41,8 @@ label {
   -ms-user-select: none;
 }
 
-.modal {
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  overflow: auto;
-  background-color: rgba(0, 0, 0, 0.2);
-}
-
-.modal-content {
-  background-color: gray;
-  margin: 20% auto;
-  padding: 20px;
-  width: 70%;
-  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
-}
-
-footer {
-  color: $color;
+.fa:hover {
+  color: black;
 }
 
 /*# sourceMappingURL=styles.css.map */

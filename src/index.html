@@ -18,11 +18,34 @@
      href="scss/styles.css"
      rel="stylesheet"
    />
+
    <title>THE GOLDEN GROUSE</title>
+
+   <link rel="icon" href="assets/LogoMakr_4RMwo1.png" type="image/x-icon" />
+
    <style>
-     h2, p {
-       color:  rgb(243, 186, 43);;
+     h1{
+       color: white;
      }
+     h2 {
+       color:  rgb(243, 186, 43);
+     }
+     body{
+       background-image: url("assets/458798-download-imvu-backgrounds-1920x1200-for-ipad-2.jpg");
+       background-repeat: no-repeat;
+     }
+     body:after {
+       content : "";
+       display: block;
+       position: absolute;
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 100%;
+       opacity : 0.5;
+       z-index: -1;
+    }
+
    </style>    
 </head>
 
@@ -58,12 +81,11 @@
     
     <br><br><br>
 
-  <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark">
     <div class="col-md-12 px-0">
       <h1 class="display-4 font-italic ">Welcome to <strong class="text-warning"> THE GOLDEN GROUSE!</strong></h1>
-      <p class="lead my-3">This is my <strong>Project0</strong> submission for the edX HarvardX <a href="https://courses.edx.org/courses/course-v1:HarvardX+CS50W+Web/course/"><strong> CS50 Web Programming with JavaScript and Python </strong>course.</a></p>
+      <p class="lead my-3 text-white">This is my <strong>Project0</strong> submission for the edX HarvardX <a href="https://courses.edx.org/courses/course-v1:HarvardX+CS50W+Web/course/"><strong> CS50 Web Programming with JavaScript and Python </strong>course.</a></p>
     </div>
-  </div>
+ 
 
   <div class="row mb-2">
     <div class="col-md-6">
@@ -96,6 +118,36 @@
       </div>
     </div>
   </div>
+
+  <div class="row mb-2">
+    <div class="col-md-6">
+      <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative bg-dark">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-muted">Tech</strong>
+          <h3 class="mb-0 text-warning">Learn Python in Less Than an Hour By Building these Beginner Projects!<hr> </h3>
+          <div class="mb-1 text-muted">June 27, 2020</div>
+          <a href="#" class="stretched-link">Continue reading...</a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <img src="assets/python.png" alt="python logo image file" height="200" width="auto" >
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-md-6">
+      <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative bg-dark">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-muted">Art</strong>
+          <h3 class="mb-0 text-warning">Create a Minimalist Movie Poster Following These 5 Simple Steps.<hr></h3>
+          <div class="mb-1 text-muted">June 19, 2020</div>
+          <a href="#" class="stretched-link">Continue reading</a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <img src="assets/the godfather.jfif" alt="the godfather.jfif file" height="240" width="auto">
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
 <main role="main" class="container">
@@ -103,8 +155,9 @@
     <div class="col-md-12 blog-main">
       <div class="blog-post">
         <h2 class="blog-post-title">Site Features</h2>
-        <hr>
-        <p class="blog-post-meta ">June 16, 2020 by <a href="#">David</a></p>
+       
+        <div class="mb-1 text-muted">June 19, 2020 by <a href="#">David</a></div>
+         <hr>
 
         <div class="alert alert-danger alert-dismissible fade show" role="alert">
           <strong>Holy guacamole!</strong> You should check out some of this (mostly static) site's features below. <hr> I've designed this blog according to the instructions outlined by <strong>Brian Yu</strong> for the edX HarvardX CS50W <a href="https://courses.edx.org/courses/course-v1:HarvardX+CS50W+Web/course/" class="alert-link">Web Programming with JavaScript and Python course. </a>While some links and buttons may not be functional at the moment (I will activate later in the future), listed below are some of the features I've used so far in designing the website:
@@ -114,11 +167,11 @@
         </div>
 
         <ul>
-          <li>An index page which makes use of some of Bootstrap 4.5.0's (blog template) features.</li>
-          <li>Three other pages (About, Contact and Gallery) pages all accessible from the static navigation bar and accessible from each other.</li>
-          <li>An .scss file that maps to a corresponding .css file containing various selectors for styling specific sections (like this one for example).</li>
-          <li>@media queries for adding cross-device responsiveness.</li>
-          <li>HTML5 elements e.g links, buttons, forms, ordered and unordered lists, etc.</li>
+          <li class="bulge">An index page which makes use of some of Bootstrap 4.5.0's (blog template) features.</li>
+          <li class="bulge">Three other pages (About, Contact and Gallery) pages all accessible from the static navigation bar and accessible from each other.</li>
+          <li class="bulge">An .scss file that maps to a corresponding .css file containing various selectors for styling specific sections (like this one for example).</li>
+          <li class="bulge">@media queries for adding cross-device responsiveness.</li>
+          <li class="bulge">HTML5 elements e.g links, buttons, forms, ordered and unordered lists, etc.</li>
         </ul>
       </div><!-- /.blog-post -->
 
