@@ -5,18 +5,16 @@
 }
 
 body {
-  background-color: #020202;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 17px;
-  line-height: 1.6;
+  background-image: url("../assets/458798-download-imvu-backgrounds-1920x1200-for-ipad-2.jpg");
+  background-repeat: no-repeat;
 }
 
 h4 {
   color: white;
 }
 
-ul > li {
-  color: crimson;
+a:hover {
+  text-decoration: none;
 }
 
 label,
@@ -25,20 +23,21 @@ footer,
   color: #eeb012;
 }
 
-.bulge:hover {
-  color: #f60606;
-  font-size: 20px;
-}
-
 .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;
+  margin-top: 5rem;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
 }
 
-.fa:hover {
-  color: black;
+.ml3 {
+  font-weight: bold;
+  font-size: 4em;
+}
+
+.container {
+  max-width: 60em;
 }
 /*# sourceMappingURL=styles.css.map */

@@ -6,107 +6,91 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-      crossorigin="anonymous"
+      href="../node_modules/bootstrap/dist/css/bootstrap.min.css"
     />
-    <link href="scss/styles.css" rel="stylesheet" />
+    <link href="cover.css" rel="stylesheet" />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <!--   <link
-      href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900"
-      rel="stylesheet"
-    /> -->
-    <title>THE GOLDEN GROUSE</title>
+    <title>The Art of David</title>
+
     <!-- add icon link -->
     <link rel="icon" href="assets/LogoMakr_4RMwo1.png" type="image/x-icon" />
     <style>
-      .card {
+      .card,
+      .card:hover {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-        width: 30%;
+        border-color: rgb(78, 78, 78);
+        max-width: 300px;
         padding: 3px;
-        padding-bottom: 8px;
         margin: auto;
         text-align: center;
         font-family: arial;
         font-size: 25px;
-        background-color: rgb(63, 63, 63);
+        background-color: rgb(78, 78, 78);
       }
 
       p {
         font-size: 18px;
       }
 
-      button {
-        border: none;
-        outline: 0;
-        display: grid;
-        padding: 8px;
-        color: rgb(10, 142, 250);
+      .desc {
         text-align: center;
-        cursor: pointer;
-        font-size: 18px;
+        margin: 2em;
+      }
+      
+      .fa:hover {
+        color: rgb(255, 196, 0);
+      }
+      .fa {
+        padding: 0.3em;
+        color: #fff;
+        font-size: 1.5em;
+      }
+      svg:hover .figma-icon {
+        fill: rgb(255, 196, 0);
+
       }
     </style>
   </head>
 
-  <body>
-    <div class="container">
-      <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-          <a class="navbar-brand text-warning" href="index.html">
-            <img src="assets/LogoMakr_16pwsn.png" height="60" width="270"
-          /></a>
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">HOME</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-warning" href="about.html">ABOUT</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="gallery.html">GALLERY</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">CONTACT</a>
-              </li>
-            </ul>
-            <form class="form-inline mt-2 mt-md-0">
-              <input
-                class="form-control mr-sm-2"
-                type="text"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button class="btn btn-primary my-2 my-sm-0" type="submit">
-                Search
-              </button>
-            </form>
-          </div>
-        </nav>
+  <body class="text-center">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <header class="masthead mb-auto">
+        <div class="inner">
+          <h1 class="masthead-brand text-warning">
+            <a class="navbar-brand" href="index.html"
+              ><img src="./assets/LogoMakr-2uxDEZ.png" alt="Logo" height="70" width="250px"></a>
+          </h1>
+          <nav class="nav nav-masthead justify-content-center">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="gallery.html">Gallery</a>
+            <a class="nav-link active" href="about.html">About</a>
+            <a class="nav-link" href="contact.html">Contact</a>
+          </nav>
+        </div>
       </header>
-
-      <br />
 
       <div class="card">
         <img
           src="assets/C5aTTH4WcAAghdu.jpg"
-          alt="David the beautiful boy"
-          style="width: 350;"
+          alt="David, the beautiful boy"
+          style="width: 350"
           height=" 340"
         />
-        <h4 style="margin: 15px 0;">David Osuchukwu</h4>
+      </div>
 
-        <p class="text text-white">
-          is a professional web developer, designer and freelance artist living
-          in Nigeria.
+      <div class="desc">
+        <p class="text-white">
+          David Osuchukwu is a Front-End Web Developer and Illustrator working
+          out of Bonny Island, Nigeria. He holds a B.Sc. in Information
+          Technology from Eastern Mediterranean University, North Cyprus and
+          enjoys sports ⚽, design 💻, reading 📖 and gardening 🌿 when he isn't drawing or writing
+          code.
         </p>
         <form action="contact.html">
           <button
@@ -114,10 +98,10 @@
             type="submit"
             value="Contact Me"
           >
-            Contact Me
+            Send A Message
           </button>
         </form>
-        <div style="margin: 17px 0;">
+        <div style="margin: 20px 0">
           <a href="https://twitter.com/brxkenhandle" target="_blank"
             ><i class="fa fa-twitter"></i
           ></a>
@@ -126,30 +110,26 @@
             target="_blank"
             ><i class="fa fa-linkedin"></i
           ></a>
+          <a
+            href="https://www.figma.com/file/Z6gu2Ju72N2AEOnewSDhvz/TRFK?node-id=0%3A1"
+            target="_blank"
+            ><i class="fa fa-figma"><svg fill="#ffffff" viewBox="0 0 32 32" width="32px" height="26px"><path d="M 12.5 1 C 9.467 1 7 3.467 7 6.5 C 7 8.1579175 7.7405106 9.6431625 8.9042969 10.652344 C 7.1773693 11.580958 6 13.405492 6 15.5 C 6 17.360625 6.9316558 19.00426 8.3496094 20 C 6.9316558 20.99574 6 22.639375 6 24.5 C 6 27.533 8.467 30 11.5 30 C 14.533 30 17 27.533 17 24.5 L 17 19 L 17 12 L 20.5 12 C 23.533 12 26 9.533 26 6.5 C 26 3.467 23.533 1 20.5 1 L 12.5 1 z M 12.5 3 L 20.5 3 C 22.43 3 24 4.57 24 6.5 C 24 8.43 22.43 10 20.5 10 L 17 10 L 12.5 10 C 10.57 10 9 8.43 9 6.5 C 9 4.57 10.57 3 12.5 3 z M 11.5 12 L 12.5 12 L 15 12 L 15 19 L 11.5 19 C 9.57 19 8 17.43 8 15.5 C 8 13.57 9.57 12 11.5 12 z M 21 12 A 4 4 0 0 0 21 20 A 4 4 0 0 0 21 12 z M 11.5 21 L 15 21 L 15 24.5 C 15 26.43 13.43 28 11.5 28 C 9.57 28 8 26.43 8 24.5 C 8 22.57 9.57 21 11.5 21 z" class="figma-icon"/></svg></i
+          ></a>
           <a href="https://www.github.com/dvco-xx/" target="_blank"
             ><i class="fa fa-github"></i
           ></a>
-          <a
-            href="https://app.slack.com/client/T7A46UQ9G/learning-slack"
-            target="_blank"
-            ><i class="fa fa-slack"></i
-          ></a>
         </div>
+
+        <footer class="mastfoot mt-auto">
+          <div class="inner">
+            <p>
+              Cover template for
+              <a href="https://getbootstrap.com/">Bootstrap</a>, by
+              <a href="https://twitter.com/mdo">@mdo</a>.
+            </p>
+          </div>
+        </footer>
       </div>
-
-      <br />
-
-      <hr class="featurette-divider" />
-
-      <footer class="container">
-        <p class="float-right"><a href="#">Back to top</a></p>
-        <p>
-          2019-2020 &middot;
-          <strong>THE GOLDEN GROUSE</strong> &copy; &middot;
-
-          <a href="#">Privacy</a> &middot; <a href="#">Terms</a>
-        </p>
-      </footer>
     </div>
 
     <!-- Optional JavaScript -->

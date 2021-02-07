@@ -1,0 +1,131 @@
+/*
+ * Globals
+ */
+
+ /*Font*/
+ @import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap');
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: rgb(255, 196, 0);
+}
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:focus {
+  margin-top: 0.7rem;;
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: 0.05rem solid #fff;
+}
+.btn-secondary:hover {
+  background-color:rgb(255, 196, 0);
+  color: #333;
+}
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background: url("assets/458798-download-imvu-backgrounds-1920x1200-for-ipad-2.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
+}
+
+h1, p, label {
+  font-family: 'Yusei Magic', sans-serif;
+  margin-bottom: 1rem;
+}
+
+.cover-container {
+  max-width: 70rem;
+}
+
+/*
+ * Header
+ */
+.masthead {
+  margin-bottom: 2rem;
+}
+
+.masthead-brand {
+  margin-bottom: 0;
+}
+
+.nav-masthead .nav-link {
+  margin-top: 0.9rem;
+  padding: 0.25rem 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color: rgb(252, 252, 252);
+  background-color: transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  color: rgba(204, 165, 38, 0.63);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: rgb(255, 196, 0);
+}
+
+.about-me {
+  color: rgb(255, 196, 0);
+  text-decoration: none;
+}
+
+.card-text {
+  color: #000;
+}
+
+.card:hover{
+  border-color: red;
+  border-style: solid;
+}
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
+
+/*
+ * Cover
+ */
+.cover {
+  padding: 0 1.5rem;
+}
+.cover .btn-lg {
+  padding: 0.75rem 1.25rem;
+  font-weight: 700;
+}
+
+/*
+ * Footer
+ */
+.mastfoot {
+  color: rgba(255, 255, 255, 0.5);
+}
