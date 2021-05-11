@@ -101,7 +101,7 @@
     "has-value": "^1.0.0",
     "has-values": "^1.0.0",
     "homedir-polyfill": "^1.0.3",
-    "hosted-git-info": "^2.8.8",
+    "hosted-git-info": "^2.8.9",
     "iconv-lite": "^0.4.24",
     "immutable": "^3.8.2",
     "in-publish": "^2.0.1",
