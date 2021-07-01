@@ -246,7 +246,7 @@
     "snapdragon-node": "^2.1.1",
     "snapdragon-util": "^3.0.1",
     "socket.io-adapter": "^1.1.2",
-    "socket.io-parser": "^3.3.0",
+    "socket.io-parser": "^3.3.2",
     "source-map": "^0.5.7",
     "source-map-url": "^0.4.0",
     "sparkles": "^1.0.1",
